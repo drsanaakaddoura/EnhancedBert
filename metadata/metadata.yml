@@ -1,0 +1,16 @@
+metadata_version: 1
+name: 'EnhancedBERT: A Python Software Tailored for Arabic Word Sense Disambiguation'
+description: This software contributes to the field of computer science by addressing
+  the disambiguation of Arabic polysemous terms. It is designed with advanced contextual
+  understanding capabilities, enabling more accurate interpretation of words with
+  multiple meanings in varied contexts.
+authors:
+- name: ' Sanaa Kaddoura'
+  affiliations:
+  - name: Zayed University
+- name: Reem Nassar
+  affiliations:
+  - name: Zayed University
+corresponding_contributor:
+  name: ' Sanaa Kaddoura'
+  email: sanaa.kaddoura@zu.ac.ae
