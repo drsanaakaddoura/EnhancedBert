@@ -45,7 +45,15 @@ _git clone https://git.codeocean.com/capsule-xxx.git_
   
 Navigate to the project directory:  
 _cd your-project_  
-  
+
+Download the Data and Models
+Go to: https://codeocean.com/capsule/2747745/tree/v1
+Go to Capsule on top left
+Click Export
+Checkbox the Include Data
+Extract the downloaded zip file
+Copy the data folder to working directory
+
 Create a virtual environment (optional but recommended):  
 _python -m venv env_  
   
@@ -53,7 +61,6 @@ Activate the virtual environment:
 For Windows: _env\Scripts\activate_  
   
 For macOS and Linux: _source env/bin/activate_  
-
 
 ## Usage
 
@@ -85,3 +92,10 @@ This project is licensed under the Apache License 2.0. For more details, see the
 
 If you have any questions, issues, or suggestions, please feel free to open an issue at (https://huggingface.co/research-s/enhancedBERTv01) or contact us at sanaa.kaddoura@zu.ac.ae  
 
+## Citation
+
+If you utilize this code, you are implicitly using the associated data. We kindly ask that you cite the following papers in your work:
+
+1) Kaddoura, S., & Nassar, R. (2024). A Comprehensive Dataset for Arabic Word Sense Disambiguation. Data in Brief, 110591. https://doi.org/10.1016/j.dib.2024.110591
+
+2) Kaddoura, S., & Nassar, R. (2024). EnhancedBERT: A Feature-Rich Ensemble Model for Arabic Word Sense Disambiguation with Statistical Analysis and Optimized Data Collection. Journal of King Saud University - Computer and Information Sciences, 36(1), 101911. https://doi.org/10.1016/j.jksuci.2023.101911
